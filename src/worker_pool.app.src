@@ -1,0 +1,12 @@
+%% -*- mode: erlang;erlang-indent-level: 4;indent-tabs-mode: nil -*-
+%% ex: ts=4 sw=4 ft=erlang et
+{application, worker_pool,
+ [{description, "worker pool"},
+  {vsn, "1.0"},
+  {registered, []},
+  {applications, [kernel, stdlib]},
+  {env, []},
+  {mod, {worker_pool_app, []}}
+ ]}.
+
+
